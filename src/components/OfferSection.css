@@ -1,0 +1,52 @@
+.offer-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .offer-section h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .offer-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #fff;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #0d0d0d;
+    text-align: left;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .card li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .card li::before {
+    content: '→ ';
+    color: #007BFF;
+  }
+  
